@@ -1,7 +1,7 @@
 oauth_sample
 ===
 
-# setup
+## setup
 
 ```bash
 $ git clone
@@ -12,13 +12,13 @@ $ rails s
 $ curl http://localhost:3000
 ```
 
-# DB reset
+## DB reset
 
 ```bash
 $ bundle exec rake db:drop app:init
 ```
 
-# unit test
+## unit test
 
 ```bash
 $ bundle exec guard
